@@ -5,6 +5,6 @@ def square_array(array)
 #  end
 #  squared
   square = []
-  array.collect { |number| number ** 2 }
+  array.collect { |number| square << number ** 2 }
   square
 end
